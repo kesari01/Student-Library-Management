@@ -1,0 +1,35 @@
+.dashboard {
+  max-width: 700px;
+  margin: 100px auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.dashboard-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.dashboard-box:hover {
+  transform: scale(1.05);
+}
+
+.dashboard-box:nth-child(odd) {
+  background-color: #e6f7ff; /* Light blue for odd boxes */
+}
+
+.dashboard-box:nth-child(even) {
+  background-color: #cce5ff; /* Lighter blue for even boxes */
+}

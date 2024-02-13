@@ -1,0 +1,31 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange; /* Set the background color to orange */
+  padding: 10px 20px;
+}
+
+.navbar-title {
+  color: white; /* Set the title color to white */
+  font-size: 30px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+}

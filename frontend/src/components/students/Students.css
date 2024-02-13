@@ -1,0 +1,22 @@
+/* Students.css */
+
+.student-list {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.student-info {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 10px 10px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+.student-info p {
+  padding-right: 165px;
+  text-align: center;
+}
+
+/* Add any additional styling as needed */

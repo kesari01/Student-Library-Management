@@ -1,0 +1,50 @@
+/* StudentCard.css */
+
+.student-card {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.student-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.student-username,
+.student-name,
+.student-semester {
+  flex: 1;
+}
+
+.student-action {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 8px 16px;
+  width: 130px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline for Link */
+}
+
+.btn-edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-edit a,
+.btn-delete a {
+  color: inherit; /* Set the color to inherit from the parent */
+  text-decoration: none; /* Remove underline for Link */
+}

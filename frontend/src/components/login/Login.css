@@ -1,0 +1,85 @@
+.login-container {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  margin: 50px auto; /* Center the container horizontally */
+  max-width: 500px; /* Set a maximum width for the container */
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px; /* Reduce padding for smaller screens */
+}
+
+/* Add media query for screens with a maximum width of 768px (typical mobile devices) */
+@media screen and (max-width: 768px) {
+  .login-container {
+    padding: 30px; /* Adjust padding for smaller screens */
+  }
+
+  .login-form {
+    padding: 20px;
+  }
+}
+
+h2 {
+  text-align: center;
+  color: #8e44ad;
+}
+
+.input-username,
+.input-password,
+.input-profile {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ecf0f1;
+  color: #555;
+}
+
+button {
+  background-color: #8e44ad;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6c3483;
+}
+
+.input-username:before,
+.input-password:before,
+.input-profile:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  background: url("path-to-icon.png") no-repeat center center;
+  background-size: cover;
+  transform: translateY(-50%);
+}

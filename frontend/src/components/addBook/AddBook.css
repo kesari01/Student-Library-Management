@@ -1,0 +1,98 @@
+/* Addbook.css */
+
+.book-form-container {
+  /* width: 80%; */
+  /* margin: 20px auto; */
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px; /* Reduce padding for smaller screens */
+}
+
+.add-book {
+  /* background-color: #f5f5f5; */
+  /* padding: 20px; */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  margin: 50px auto; /* Center the container horizontally */
+  max-width: 500px; /* Set a maximum width for the container */
+}
+
+.add-book h2 {
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd; /* Addbook.css */
+
+  .book-form-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .add-book {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .add-book h2 {
+    color: #333;
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .btn-addBook button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+
+  .btn-addBook button:hover {
+    background-color: #45a049;
+  }
+
+  border-radius: 4px;
+}
+
+.btn-addBook button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn-addBook button:hover {
+  background-color: #45a049;
+}

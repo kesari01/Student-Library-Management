@@ -1,0 +1,60 @@
+/* BookCard.css */
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.book-detail {
+  margin-top: 12px;
+}
+
+.book-detail h3 {
+  margin: 0;
+}
+
+.book-detail p {
+  margin: 8px 0;
+}
+
+.book-action {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 8px 16px;
+  width: 130px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline for Link */
+}
+
+.btn-edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-edit a,
+.btn-delete a {
+  color: inherit; /* Set the color to inherit from the parent */
+  text-decoration: none; /* Remove underline for Link */
+}
